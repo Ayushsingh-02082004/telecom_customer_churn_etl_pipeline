@@ -61,7 +61,8 @@ telecom-customer-churn/
 │   └── jobs/
 │
 ├── powerbi/
-│   └── Telecom_Customer_Churn.pbix
+│   ├── Screenshot/
+│   └── Telecom_churn_visual.pbix
 │
 ├── python/
 │   └── data_profiling.py
@@ -118,7 +119,7 @@ mysql -u root -p < sql/validation_queries.sql
 ```
 
 ### 5. Launch Power BI Dashboard
-Open [`powerbi/Telecom_Customer_Churn.pbix`](powerbi/Telecom_Customer_Churn.pbix) in Power BI Desktop to inspect the visualizations and churn KPIs.
+Open [`powerbi/Telecom_churn_visual.pbix`](powerbi/Telecom_churn_visual.pbix) in Power BI Desktop to inspect the visualizations and churn KPIs.
 
 ---
 
